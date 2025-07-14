@@ -1,0 +1,288 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "4ff7208c-e20f-446f-a827-79616871d88b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "dinesh kumar\n"
+     ]
+    }
+   ],
+   "source": [
+    "firstname = 'dinesh'\n",
+    "\n",
+    "lastname = 'kumar'\n",
+    "\n",
+    "fullname = f\"dinesh kumar\"\n",
+    "\n",
+    "print(fullname)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "cdc570e1-bfb0-4b16-bfab-ff87a9e4af5a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Dinesh Kumar\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(fullname.title())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "7f33655d-4fe8-486e-89a1-4e2b70bffd30",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "keep up the good work, Dinesh Kumar\n"
+     ]
+    }
+   ],
+   "source": [
+    "message = f\"keep up the good work, {fullname.title()}\"\n",
+    "\n",
+    "print(message)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0563e036-1e86-4c4d-9c07-c3e10241e0c9",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c644ef11-c45d-40e8-bbdd-534ca6f121bf",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "adding whitespaces to strings :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "8942f54f-9584-485f-ba99-d3e13016d547",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "favorite_language:PythonCjavac++swiftjavascript\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"favorite_language:PythonCjavac++swiftjavascript\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "cf1710f1-383e-4d43-accd-21f702f2022b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "favorite_language:\n",
+      "python\n",
+      "C\n",
+      "java\n",
+      "c++\n",
+      "swift\n",
+      "javascript\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"favorite_language:\\npython\\nC\\njava\\nc++\\nswift\\njavascript\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "4b4431a2-eea3-40b1-ad5a-f7aab5b14024",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "favorite_language:\n",
+      "\tPython\tC\n",
+      "\tjava\n",
+      "\tc++\n",
+      "\tswift\n",
+      "\tjavascript\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"favorite_language:\\n\\tPython\\tC\\n\\tjava\\n\\tc++\\n\\tswift\\n\\tjavascript\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "6c7fde15-262d-426a-8841-1537e0c9cfef",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "  python\n"
+     ]
+    }
+   ],
+   "source": [
+    "name2 =\"  python\"\n",
+    "\n",
+    "print(name2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "8d38d8cd-deeb-4290-b654-5b7ef7ec91aa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "python  \n"
+     ]
+    }
+   ],
+   "source": [
+    "name3 = \"python  \"\n",
+    "\n",
+    "print(name3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "33c2a326-b41a-40f3-8281-242d35170356",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'python'"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name.lstrip()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "43ed2fa6-642c-436b-8108-e8d3ed42ce8f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'python'"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name3.rstrip()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "33fd484f-173c-4594-85b7-5722676509e1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "python\n"
+     ]
+    }
+   ],
+   "source": [
+    "name4 = 'python'\n",
+    "\n",
+    "print(name4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5661e06f-514e-4c45-aa57-0c3fd500013d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "921bd63f-d3e5-4289-906c-6678fee126fa",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
