@@ -1,0 +1,191 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "348a1e1e-e394-4458-af12-589000233d2a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Faiyaz\n"
+     ]
+    }
+   ],
+   "source": [
+    "firstname = 'Faiyaz'\n",
+    "\n",
+    "print(firstname)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "eae8cbea-d12d-44f9-9333-efd29d9f2858",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid decimal literal (1926382103.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[9], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    1name = 'Karthik'\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid decimal literal\n"
+     ]
+    }
+   ],
+   "source": [
+    "1name = 'Karthik'"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "1647ef3d-d42b-48ab-b321-6ae2edafffef",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "kartik\n"
+     ]
+    }
+   ],
+   "source": [
+    "name1 = 'kartik'\n",
+    "\n",
+    "print(name1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "18cebb68-c143-4e8a-b59a-0131a0ecb7eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (2624127230.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[14], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    name@ = 'deepak'\u001b[0m\n\u001b[0m          ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "name@ = 'deepak'\n",
+    "\n",
+    "print(name@)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "24d89ad4-5821-4d98-9853-7342fc7a50ed",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "joseph\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = 'joseph'\n",
+    "\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "e14fed2b-0367-4e0f-8239-7db30e4e65c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "kavya\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = 'kavya'\n",
+    "\n",
+    "print(name)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "2c9238de-1e58-4bc2-aefd-52f8117966e4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "zeba ansari\n"
+     ]
+    }
+   ],
+   "source": [
+    "fullname = 'zeba ansari'\n",
+    "\n",
+    "print(fullname)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "ae5079eb-108f-40a0-9c3f-3b99187d2ae1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Zeba Ansari\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(fullname.title())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0c709995-becc-41c8-aca2-026b8c09898a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
