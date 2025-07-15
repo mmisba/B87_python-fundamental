@@ -1,0 +1,440 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "dbf0a3ac-8b32-4bcb-b321-f5576a82929f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "continuation with list datatype : "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "28cc1f04-e95b-4ce6-ac4d-c4e1c8771599",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['bmw', 'tata', 'suzuki', 'audi', 'toyota', 'benz']\n"
+     ]
+    }
+   ],
+   "source": [
+    "cars = ['bmw','tata','suzuki','audi','toyota','benz']\n",
+    "\n",
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "c1f607f6-cb16-4bd3-a2c7-cb2e20f97c94",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 3,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "8b58d95e-28fe-46a7-9ff4-39c9fcc9d3cd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['audi', 'benz', 'bmw', 'suzuki', 'tata', 'toyota']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(sorted(cars))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "520132d3-3435-4f30-91c8-2f6204174ea6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['bmw', 'tata', 'suzuki', 'audi', 'toyota', 'benz']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "2da45af4-fe03-4efd-9d5f-30cd917d19eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['audi', 'benz', 'bmw', 'suzuki', 'tata', 'toyota']\n"
+     ]
+    }
+   ],
+   "source": [
+    "cars.sort()\n",
+    "\n",
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "b5726816-a548-4645-9c59-adf077635208",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['audi', 'benz', 'bmw', 'suzuki', 'tata', 'toyota']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bc510676-b957-4e65-99d7-eb9c41508bd2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "intriveiw_question : what is the difference sorted and sorts method in a list datatype?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8207c022-62df-41cf-a45d-821b8c159ce2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "3cb87a9f-5b2a-4d3e-b780-cb2ee56be0fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(cars)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ab777821-9a94-469c-a573-e4fc580fa454",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "a891ed1d-3354-400a-845c-cfb661fe34e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['toyota', 'tata', 'suzuki', 'bmw', 'benz', 'audi']\n"
+     ]
+    }
+   ],
+   "source": [
+    "cars.reverse()\n",
+    "\n",
+    "print(cars) # A - Z order"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "06229207-0bb4-4bb9-bd40-8fd11b2ce835",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c671ccda-2137-4fa4-b7ed-ac831a42fc13",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "d2818188-4727-417f-aa76-0fd672bf20f2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['anika', 'arpita', 'bhushan', 'bhanu', 'chandra', 'cynthia', 'danish']\n"
+     ]
+    }
+   ],
+   "source": [
+    "students = ['anika','arpita','bhushan','bhanu','chandra','cynthia','danish']\n",
+    "\n",
+    "print(students)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "3634bc86-dcdd-4cb5-8fe1-1328adc40586",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['anika']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[0:1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "3928c927-acc8-4442-80f6-1fef08910b8f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['anika', 'arpita']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[0:2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "22a2fc06-c25a-4bc3-bddd-eec5672377a8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['bhushan', 'bhanu']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[2:4])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "89bf34e0-e66d-49e2-9945-3830fa013cd2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['anika', 'bhushan', 'chandra', 'danish']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students[0:7:2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "c60ebcf1-dd06-44ee-b0c7-0f0dbb90a3de",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['anika', 'arpita', 'bhushan', 'bhanu', 'chandra', 'cynthia', 'danish']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(students)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f2ee6f66-aba1-4a3d-a20d-5300e4e5ab02",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "cdb6f7c2-4f2c-44cc-a142-990d377aa9e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(20, 50)\n"
+     ]
+    }
+   ],
+   "source": [
+    "dimensions = (20,50)\n",
+    "\n",
+    "print(dimensions)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "7ba2866d-f4ff-4311-a818-d65cbfb53276",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "tuple"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(dimensions)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "2f15e3f0-c5d4-4f5d-9ab6-8b1f6f43ad91",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'tuple' object does not support item assignment",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[22], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m dimensions[\u001b[38;5;241m0\u001b[39m] \u001b[38;5;241m=\u001b[39m \u001b[38;5;241m30\u001b[39m\n",
+      "\u001b[0;31mTypeError\u001b[0m: 'tuple' object does not support item assignment"
+     ]
+    }
+   ],
+   "source": [
+    "dimensions[0] = 30"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "3d996c93-af37-4e24-8efc-a873a2ad0caf",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "50\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(dimensions[1])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9ed32629-ea78-4391-b330-ee8e20443b45",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
