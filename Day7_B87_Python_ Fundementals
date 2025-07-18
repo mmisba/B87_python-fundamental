@@ -1,0 +1,185 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9b1b9689-43a6-4950-bea9-86b048ba4b63",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "for loop :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "18ba9492-6f7a-4b6a-a7e0-4dd48967e013",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['akshay', 'bhavana', 'chandu', 'dinesh', 'ehsan']\n"
+     ]
+    }
+   ],
+   "source": [
+    "students = ['akshay','bhavana','chandu','dinesh','ehsan']\n",
+    "\n",
+    "print(students)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "73f585d6-0ffb-4566-ada6-1b39e6705427",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "keep up the good work, Akshay\n",
+      "keep up the good work, Bhavana\n",
+      "keep up the good work, Chandu\n",
+      "keep up the good work, Dinesh\n",
+      "keep up the good work, Ehsan\n"
+     ]
+    }
+   ],
+   "source": [
+    "for a in students:\n",
+    "    print(f\"keep up the good work, {a.title()}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "8bfceb72-921b-4ed5-b601-d258058d8151",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "keep up the good work, Akshay\n",
+      "i m waiting to recive your submission of today,Akshay\n",
+      "keep up the good work, Bhavana\n",
+      "i m waiting to recive your submission of today,Bhavana\n",
+      "keep up the good work, Chandu\n",
+      "i m waiting to recive your submission of today,Chandu\n",
+      "keep up the good work, Dinesh\n",
+      "i m waiting to recive your submission of today,Dinesh\n",
+      "keep up the good work, Ehsan\n",
+      "i m waiting to recive your submission of today,Ehsan\n"
+     ]
+    }
+   ],
+   "source": [
+    "for a in students:\n",
+    "    print(f\"keep up the good work, {a.title()}\")\n",
+    "    print(f\"i m waiting to recive your submission of today,{a.title()}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "81379c14-d838-4f2d-97ba-6241ca616904",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "keep up the good work, Akshay\n",
+      "i m waiting to recive your submission of today,Akshay\n",
+      "\n",
+      "keep up the good work, Bhavana\n",
+      "i m waiting to recive your submission of today,Bhavana\n",
+      "\n",
+      "keep up the good work, Chandu\n",
+      "i m waiting to recive your submission of today,Chandu\n",
+      "\n",
+      "keep up the good work, Dinesh\n",
+      "i m waiting to recive your submission of today,Dinesh\n",
+      "\n",
+      "keep up the good work, Ehsan\n",
+      "i m waiting to recive your submission of today,Ehsan\n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "for a in students:\n",
+    "    print(f\"keep up the good work, {a.title()}\")\n",
+    "    print(f\"i m waiting to recive your submission of today,{a.title()}\\n\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "36c9c4b3-fa12-4d27-aa89-451149c9adf2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "keep up the good work, Akshay\n",
+      "i m waiting to recive your submission of today,Akshay\n",
+      "\n",
+      "keep up the good work, Bhavana\n",
+      "i m waiting to recive your submission of today,Bhavana\n",
+      "\n",
+      "keep up the good work, Chandu\n",
+      "i m waiting to recive your submission of today,Chandu\n",
+      "\n",
+      "keep up the good work, Dinesh\n",
+      "i m waiting to recive your submission of today,Dinesh\n",
+      "\n",
+      "keep up the good work, Ehsan\n",
+      "i m waiting to recive your submission of today,Ehsan\n",
+      "\n",
+      "Thank you all for attending the python training sessions\n"
+     ]
+    }
+   ],
+   "source": [
+    "for a in students:\n",
+    "    print(f\"keep up the good work, {a.title()}\")\n",
+    "    print(f\"i m waiting to recive your submission of today,{a.title()}\\n\")\n",
+    "print(\"Thank you all for attending the python training sessions\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "85437b18-25f3-4deb-9530-163e06e0ebcd",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
