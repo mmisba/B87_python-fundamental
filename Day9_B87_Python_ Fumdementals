@@ -1,0 +1,339 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4fcc1c7c-7a39-4a4e-b16a-52c59ac00d30",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Introduction to python functions :"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "50918ee0-7e9b-4c07-a64d-44850a7be1c6",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "b7a6f1d9-d05c-4cf1-a07b-008b8524af04",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def greet():\n",
+    "\n",
+    "    print (\"Hello\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "8464d4c0-c6ec-4b6a-8d1d-230342cc9229",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "greet() #function cell"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "a2991a91-a009-4e6d-b4a0-58aff5288bb7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "greet()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "182cfe94-e523-47a8-ac98-1bca70fd41b5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "greet()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "995335d6-414c-450b-b3ec-b2aca9940272",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def greet_user():\n",
+    "\n",
+    "    print(\"Hello\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "1fbd4589-018f-4542-86b2-23fb12c53401",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "greet_user()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "c4c78fd9-02e3-4c73-80a5-0a8c7dfe5b82",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def greet_user(username):\n",
+    "\n",
+    "    print(f\"Hello, {username.title()}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "11ecb972-bb37-47d8-86db-4efa0c887549",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello, Anil\n"
+     ]
+    }
+   ],
+   "source": [
+    "greet_user('anil')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "9692634e-21a9-4764-afaa-2c6d56c08eb4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello, Arshad\n"
+     ]
+    }
+   ],
+   "source": [
+    "greet_user('arshad')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "51f4ec23-715f-42af-bbf1-3bd88d79ac81",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7d73a6ba-1df0-474e-a14c-21dbf864d786",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "types of arguments :\n",
+    "    1. postitional arguments\n",
+    "\n",
+    "    2. keyword arguments\n",
+    "\n",
+    "    3. arbitary arguments"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "205bb1c4-34b3-45f8-a536-e54d9d4e2c0e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "9f172403-938b-420e-9f7e-37e66f01ec1f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def describe_pet(animal_type,pet_name):\n",
+    "\n",
+    "    print(f\"\\nI have a {animal_type}\")\n",
+    "    print(f\"my {animal_type}'s name is {pet_name}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "cd2564db-b379-4413-a5cb-a52ad6c18c4e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "I have a dog\n",
+      "my dog's name is bruno\n"
+     ]
+    }
+   ],
+   "source": [
+    "describe_pet('dog','bruno')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "d6570e6a-6c37-44fd-a7a9-4db42e0c3946",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "I have a cat\n",
+      "my cat's name is rex\n"
+     ]
+    }
+   ],
+   "source": [
+    "describe_pet('cat','rex')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "5e573b8e-01db-4865-831f-b157d45fa14b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "I have a sweetie\n",
+      "my sweetie's name is parrot\n"
+     ]
+    }
+   ],
+   "source": [
+    "describe_pet('sweetie','parrot')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "c66cf9a1-e91d-4ff1-a0a5-00e67ab9ef5d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "I have a parrot\n",
+      "my parrot's name is sweetie\n"
+     ]
+    }
+   ],
+   "source": [
+    "describe_pet('parrot','sweetie') #positional arguments"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "37c67daf-0b85-43ec-be3f-ae775edfa60d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "I have a parrot\n",
+      "my parrot's name is sweetie\n"
+     ]
+    }
+   ],
+   "source": [
+    "describe_pet(pet_name = 'sweetie',animal_type = 'parrot')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "67853da3-1f83-4706-82c3-3a09e4e2908d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
