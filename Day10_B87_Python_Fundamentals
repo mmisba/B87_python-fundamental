@@ -1,0 +1,355 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "4384d09e-c0ca-4eb2-80c3-7307c311d127",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def describe_pet(animal_type,pet_name):\n",
+    "\n",
+    "    print(f\"\\nI have a {animal_type}\")\n",
+    "    print(f\"my {animal_type}'s name is {pet_name}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b1f11ac0-7295-4ae4-8ca3-4a5b2f008d10",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "b846f002-a8b1-44a5-8cd6-402d9b225e5c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "I have a dog\n",
+      "my dog's name is bruno\n"
+     ]
+    }
+   ],
+   "source": [
+    "describe_pet('dog','bruno')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "18b45c2c-61bd-47eb-a96f-1ebe6c740bbd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "I have a dog\n",
+      "my dog's name is rex\n"
+     ]
+    }
+   ],
+   "source": [
+    "describe_pet('rex')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "82e46f67-e9ef-469a-ac3b-1e0fc197c5af",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def describe_pet(pet_name, animal_type = 'dog'):\n",
+    "\n",
+    "    print(f\"\\nI have a {animal_type}\")\n",
+    "    print(f\"my {animal_type}'s name is {pet_name}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "b8e3f938-ff2d-42a3-9711-ddb77ada08c1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "I have a dog\n",
+      "my dog's name is rex\n"
+     ]
+    }
+   ],
+   "source": [
+    "describe_pet('rex')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "f0d84a7a-e0fd-485b-aa11-873720c5ef3b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "I have a cat\n",
+      "my cat's name is bruno\n"
+     ]
+    }
+   ],
+   "source": [
+    "describe_pet('bruno','cat')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b0c22f8e-3830-40be-9f2c-e0f7f6b5f61a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b51e2ca7-6496-48cb-9db7-e3046bd62050",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def get_formatted_name(first_name,last_name):\n",
+    "\n",
+    "    full_name = f\"{first_name} {last_name}\"\n",
+    "    return full_name.title()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "18328b3d-62ce-49e0-9d2c-827e1d87a280",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "9ca92d95-b083-4502-ab33-45c45f63edda",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'fullname' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[13], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m person \u001b[38;5;241m=\u001b[39m get_formatted_name(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124msai\u001b[39m\u001b[38;5;124m'\u001b[39m,\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mkiran\u001b[39m\u001b[38;5;124m'\u001b[39m)\n\u001b[1;32m      3\u001b[0m \u001b[38;5;28mprint\u001b[39m(person)\n",
+      "Cell \u001b[0;32mIn[7], line 4\u001b[0m, in \u001b[0;36mget_formatted_name\u001b[0;34m(first_name, last_name)\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[38;5;28;01mdef\u001b[39;00m\u001b[38;5;250m \u001b[39m\u001b[38;5;21mget_formatted_name\u001b[39m(first_name,last_name):\n\u001b[1;32m      3\u001b[0m     full_name \u001b[38;5;241m=\u001b[39m \u001b[38;5;124mf\u001b[39m\u001b[38;5;124m\"\u001b[39m\u001b[38;5;132;01m{\u001b[39;00mfirst_name\u001b[38;5;132;01m}\u001b[39;00m\u001b[38;5;124m \u001b[39m\u001b[38;5;132;01m{\u001b[39;00mlast_name\u001b[38;5;132;01m}\u001b[39;00m\u001b[38;5;124m\"\u001b[39m\n\u001b[0;32m----> 4\u001b[0m     \u001b[38;5;28;01mreturn\u001b[39;00m fullname\u001b[38;5;241m.\u001b[39mtitle()\n",
+      "\u001b[0;31mNameError\u001b[0m: name 'fullname' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "person = get_formatted_name('sai','kiran')\n",
+    "\n",
+    "print(person)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d3715ef0-d6cf-40a9-8a17-9e001b06fccc",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d5128c6d-47ae-4b68-aca6-3e293c2a6ae0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "350e6580-2a55-4e95-85ae-00c34b296699",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def make_pizza(toppings):\n",
+    "\n",
+    "    print(toppings)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "d2b11f6f-796d-4b85-a461-589ad51f2755",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "olives\n"
+     ]
+    }
+   ],
+   "source": [
+    "make_pizza('olives')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "f2106918-dddb-4ace-b9ae-a5b430e39b35",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def make_pizza(*toppings):\n",
+    "\n",
+    "    print(toppings)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "bd61791e-712b-4317-b416-5faf4ff09dd0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "('olives', 'corn', 'onions')\n"
+     ]
+    }
+   ],
+   "source": [
+    "make_pizza('olives','corn','onions')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "25134b83-19e3-489f-bdb5-1303614fcd54",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def make_pizza(*toppings):\n",
+    "\n",
+    "    print(\"\\nMaking the pizza with the below toppings\")\n",
+    "    for a in toppings:\n",
+    "        print(f\"-{a}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "87ecadfa-640c-4955-a85b-0d9a36d1cb79",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "/nMaking the pizza with the below toppings\n",
+      "-olives\n",
+      "-corn\n",
+      "-onions\n"
+     ]
+    }
+   ],
+   "source": [
+    "make_pizza('olives','corn','onions')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "01b023c4-8a79-4d62-a6ed-13314c5b3359",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "79dc1173-6839-498c-a8f8-e5a6590e2e08",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def make_pizza(size,*toppings):\n",
+    "\n",
+    "    print(\"\\nMaking a {size} inch pizza with the below toppings\")\n",
+    "    for a in toppings:\n",
+    "        print(f\"-{a}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "b370219c-04db-40b2-9c39-15b678912f8c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "Making a {size)inch pizza with the below toppings\n",
+      "-olives\n",
+      "-corn\n"
+     ]
+    }
+   ],
+   "source": [
+    "make_pizza(12,'olives','corn')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8c55e9a4-bcd2-47b0-8c4e-aee7e47c4c78",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
